@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import './vars.scss';
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  user-select: inherit;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+iframe {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+table {
+  border: 0;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0;
+}
+
+input {
+  padding: $unit;
+}
+
+button {
+  cursor: pointer;
+  padding: $unit;
+  font-weight: 700;
+}
+
+.primaryBtn {
+  color: $white;
+  background: $blue;
+}
+
+.primaryBtn:hover,
+.primaryBtn:focus {
+  background: $darkblue;
+}
+
+.destructiveBtn {
+  background: $orange;
+  color: $white;
+}
+
+.destructiveBtn:hover,
+.destructiveBtn:focus {
+  background: $darkorange;
+}
