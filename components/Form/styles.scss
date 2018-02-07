@@ -1,0 +1,19 @@
+@import '../../styles/vars.scss';
+
+.praida-form {
+  header {
+    padding: $unit / 2 $unit;
+
+    border-bottom: 1px solid $grey;
+    border-radius: $radius $radius 0 0;
+    background: $white;
+
+    font-weight: 700;
+  }
+
+  fieldset {
+    margin: 0;
+    border: 0;
+    padding: $unit $unit 0 $unit;
+  }
+}

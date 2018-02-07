@@ -1,0 +1,16 @@
+@import '../styles/vars.scss';
+
+.main {
+  margin-top: 4 * $unit;
+  padding-top: 2 * $unit;
+}
+
+.auth {
+  max-width: 640px - (2 * $unit);
+  margin: 0 auto;
+  font-size: $unit;
+  line-height: $unit;
+
+  border: 1px solid $grey;
+  border-radius: $radius;
+}

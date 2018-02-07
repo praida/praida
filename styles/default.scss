@@ -39,6 +39,10 @@ th, td {
   padding: 0;
 }
 
+label {
+  cursor: pointer;
+}
+
 input {
   padding: $unit;
 }
